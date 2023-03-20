@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to right, blue 0%,rgba(0, 0, 255, 0.37) 65% , rgb(117, 209, 117) 65% , rgb(117, 209, 117)  100%);
+}
+h1{
+    display: block;
+    color: greenyellow;
+    padding: 50px;
+}
+.dev {
+   display: grid;
+   place-items: center;
+   padding: 150px;
+   float: left;
+
+}
+.dev h2{
+    color: greenyellow;
+    font-weight: bold ;
+    font-size: 70px;
+}
+.dev p{
+    color: white;
+}
+.image{
+  display: block;
+  align-self: center;
+  justify-content: center;
+  float: left;
+  padding-top: 70px;
+
+}
+.image img{
+    height: 400px;
+    object-fit: contain;
+    box-shadow: 10px 20px 3px white;
+    
+}
